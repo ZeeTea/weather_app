@@ -1,0 +1,1 @@
+const myAPI = '6fa02b942b142ed46c60759043d49fe4'

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Todays Weather App</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar-city" placeholder="Enter a City" />
+            <span>
+
+            </span>
+            <input type="text" class="search-bar-state" placeholder="Enter a State or Country" />
+            <button>
+              <svg class="mainsearchBtn"
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 1024 1024"
+                height="2.5em"
+                width="2.5em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+              </svg>
+            </button>
+          </div>
+        </button>
+      </div>
+      <div class="weather loading">
+        <h2 class="city">Weather in Mississippi</h2>
+        <h1 class="temp">51°C</h1>
+        <div class="flex">
+          <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+          <div class="description">Cloudy</div>
+        </div>
+        <div class="humidity">Humidity: 60%</div>
+        <div class="wind">Wind speed: 6.2 km/h</div>
+      </div>
+    </div>
+
+    <script src="./api.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
